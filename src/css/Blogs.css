@@ -1,0 +1,34 @@
+/* Blogs.css */
+.blogs-container {
+    padding: 20px;
+    max-width: 1200px; /* Max width for larger screens */
+    margin: auto; /* Center the container */
+}
+
+.blogs-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    justify-content: center; /* Center cards in the container */
+    gap: 20px; /* Space between the cards */
+}
+
+.create-blog-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-blog-button:hover {
+    background-color: #0056b3;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .blogs-list {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center; /* Center align cards */
+    }
+}

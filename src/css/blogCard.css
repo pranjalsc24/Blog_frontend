@@ -1,0 +1,29 @@
+.blog-card {
+    background-color: white; /* White background for the card */
+    border: 1px solid #e1e1e1; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the card */
+    margin: 10px; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth scale effect on hover */
+    width: 300px; /* Fixed width for consistent card sizes */
+}
+
+.blog-card:hover {
+    transform: translateY(-5px); /* Raise card on hover */
+}
+
+.blog-card h3 {
+    font-size: 1.5em; /* Increased font size for title */
+    color: #333; /* Dark color for better readability */
+}
+
+.blog-card p {
+    font-size: 1em; /* Default paragraph size */
+    color: #666; /* Lighter color for content */
+}
+
+.author {
+    font-style: italic; /* Italic style for author */
+    color: #999; /* Lighter color for author name */
+}
